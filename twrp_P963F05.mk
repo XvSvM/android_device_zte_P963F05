@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common Twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from P963F05 device
 $(call inherit-product, device/zte/P963F05/device.mk)
 
 PRODUCT_DEVICE := P963F05
-PRODUCT_NAME := omni_P963F05
+PRODUCT_NAME := twrp_P963F05
 PRODUCT_BRAND := ZTE
 PRODUCT_MODEL := ZTE 8010
 PRODUCT_MANUFACTURER := zte
