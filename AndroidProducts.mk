@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_P963F05.mk
+    $(LOCAL_DIR)/twrp_P963F05.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_P963F05-user \
-    omni_P963F05-userdebug \
-    omni_P963F05-eng
+    twrp_P963F05-user \
+    twrp_P963F05-userdebug \
+    twrp_P963F05-eng
